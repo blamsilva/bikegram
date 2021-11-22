@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Segoe UI';
+    font-size: 13px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.superior {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.bikegram_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.smartphone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin-left: 15px;
+    margin-right: 45px;
+    margin-top: 45px;
+}
+
+ .smartphone img {
+    height: 55rem;
+}
+
+.grupo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgrey;
+    margin-right: 50px;
+    margin-left: 40px;
+}
+
+.logotipo {
+    margin-top: 20px;
+    height: 2rem;
+}
+
+.foto_perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 2rem;
+   
+}
+
+.foto_perfil {
+    height: 100px;
+    width: 100px;
+}
+
+.continuar {
+    background-color: #0095f6;
+    color: #ffffff;
+    margin-top: 2rem;
+    border-radius: 4px;
+    padding: 6px;
+}
+
+.outro_usuario {
+    margin-top: 1.5rem;
+}
+
+.inferior {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.links_uteis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.links_2 {
+    margin-top: 4px;
+}
+
+.link_externo {
+    color: gray;
+    margin: 10px;
+}
+
+.register {
+    margin-top: 10px;
+    color: gray;    
+}
+
+/* media queries */
+
+
+@media (max-width: 1024px) {
+    .bikegram_wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    .bikegram_wrapper {
+        width: 90%;
+    }
+
+    .smartphone {
+        display: none;
+    }
+
+    .grupo {
+        width: 100%;
+        border: 1px solid transparent;
+    }
+
+    .inferior {
+        display: none;
+    }
+    
+ }
